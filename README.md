@@ -18,13 +18,13 @@ Stores data from the three files into the default S3 bucket using upload_data
 Creates a Docker container from AWS which has XGBoost.
 
 Hyperparameters of XGBoost - 
-max_depth=5
-eta=0.2, gamma=4
-min_child_weight=6
-subsample=0.8
-silent=0
-objective='binary:logistic'
-early_stopping_rounds=10
+max_depth=5,
+eta=0.2, gamma=4,
+min_child_weight=6,
+subsample=0.8,
+silent=0,
+objective='binary:logistic',
+early_stopping_rounds=10,
 num_round=500
 
 Instance type for training - ml.m4.xlarge
